@@ -1,0 +1,11 @@
+import time
+
+
+def print_timing(func):
+	def wrapper(*arg):
+		t1 = time.time()
+		res = func(*arg)
+		t2 = time.time()
+		print('%s took %0.2f ms' % (func.__name__, (t2 - t1) * 1000))
+		return res
+	return wrapper

@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C152639199A628800B12BB9 /* Problem4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C152638199A628800B12BB9 /* Problem4Tests.swift */; };
+		5C1BD04B1999C82D00D8DABB /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1BD04A1999C82D00D8DABB /* Problem2.swift */; };
+		5C1BD05A1999C87500D8DABB /* Problem1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1BD0591999C87500D8DABB /* Problem1Tests.swift */; };
+		5C1BD05B1999C8E200D8DABB /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C712A191999C54000B95B80 /* Problem1.swift */; };
+		5C1BD05C1999C8E400D8DABB /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1BD04A1999C82D00D8DABB /* Problem2.swift */; };
+		5C1BD05E1999CAC300D8DABB /* Problem2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1BD05D1999CAC300D8DABB /* Problem2Tests.swift */; };
+		5C1BD0641999CDA100D8DABB /* Problem3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1BD0631999CDA100D8DABB /* Problem3.swift */; };
+		5C1BD0651999CDA700D8DABB /* Problem3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1BD0631999CDA100D8DABB /* Problem3.swift */; };
+		5C1BD0671999CF3300D8DABB /* Problem3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1BD0661999CF3300D8DABB /* Problem3Tests.swift */; };
+		5C389DA61999C513007C3314 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C389DA51999C513007C3314 /* main.swift */; };
+		5C437B57199EB5AC00BAE029 /* Problem5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C437B56199EB5AC00BAE029 /* Problem5.swift */; };
+		5C437B58199EB5B200BAE029 /* Problem5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C437B56199EB5AC00BAE029 /* Problem5.swift */; };
+		5C437B5A199EB61300BAE029 /* Problem5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C437B59199EB61300BAE029 /* Problem5Tests.swift */; };
+		5C712A1A1999C54000B95B80 /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C712A191999C54000B95B80 /* Problem1.swift */; };
+		5C8EF5EA199A623500176A52 /* Problem4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8EF5E9199A623500176A52 /* Problem4.swift */; };
+		5C8EF5EB199A623500176A52 /* Problem4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8EF5E9199A623500176A52 /* Problem4.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C389DA01999C513007C3314 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C152638199A628800B12BB9 /* Problem4Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem4Tests.swift; sourceTree = "<group>"; };
+		5C1BD04A1999C82D00D8DABB /* Problem2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem2.swift; sourceTree = "<group>"; };
+		5C1BD0501999C84700D8DABB /* ProjectEulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectEulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1BD0531999C84700D8DABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1BD0591999C87500D8DABB /* Problem1Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem1Tests.swift; sourceTree = "<group>"; };
+		5C1BD05D1999CAC300D8DABB /* Problem2Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem2Tests.swift; sourceTree = "<group>"; };
+		5C1BD0631999CDA100D8DABB /* Problem3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem3.swift; sourceTree = "<group>"; };
+		5C1BD0661999CF3300D8DABB /* Problem3Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem3Tests.swift; sourceTree = "<group>"; };
+		5C389DA21999C513007C3314 /* ProjectEuler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEuler; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C389DA51999C513007C3314 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5C437B56199EB5AC00BAE029 /* Problem5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem5.swift; sourceTree = "<group>"; };
+		5C437B59199EB61300BAE029 /* Problem5Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem5Tests.swift; sourceTree = "<group>"; };
+		5C712A191999C54000B95B80 /* Problem1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
+		5C8EF5E9199A623500176A52 /* Problem4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem4.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C1BD04D1999C84700D8DABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C389D9F1999C513007C3314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C1BD0511999C84700D8DABB /* ProjectEulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C1BD0521999C84700D8DABB /* Supporting Files */,
+				5C1BD0591999C87500D8DABB /* Problem1Tests.swift */,
+				5C1BD05D1999CAC300D8DABB /* Problem2Tests.swift */,
+				5C1BD0661999CF3300D8DABB /* Problem3Tests.swift */,
+				5C152638199A628800B12BB9 /* Problem4Tests.swift */,
+				5C437B59199EB61300BAE029 /* Problem5Tests.swift */,
+			);
+			path = ProjectEulerTests;
+			sourceTree = "<group>";
+		};
+		5C1BD0521999C84700D8DABB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C1BD0531999C84700D8DABB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C389D991999C513007C3314 = {
+			isa = PBXGroup;
+			children = (
+				5C389DA41999C513007C3314 /* ProjectEuler */,
+				5C1BD0511999C84700D8DABB /* ProjectEulerTests */,
+				5C389DA31999C513007C3314 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C389DA31999C513007C3314 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C389DA21999C513007C3314 /* ProjectEuler */,
+				5C1BD0501999C84700D8DABB /* ProjectEulerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C389DA41999C513007C3314 /* ProjectEuler */ = {
+			isa = PBXGroup;
+			children = (
+				5C389DA51999C513007C3314 /* main.swift */,
+				5C712A191999C54000B95B80 /* Problem1.swift */,
+				5C1BD04A1999C82D00D8DABB /* Problem2.swift */,
+				5C1BD0631999CDA100D8DABB /* Problem3.swift */,
+				5C8EF5E9199A623500176A52 /* Problem4.swift */,
+				5C437B56199EB5AC00BAE029 /* Problem5.swift */,
+			);
+			path = ProjectEuler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C1BD04F1999C84700D8DABB /* ProjectEulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1BD0561999C84700D8DABB /* Build configuration list for PBXNativeTarget "ProjectEulerTests" */;
+			buildPhases = (
+				5C1BD04C1999C84700D8DABB /* Sources */,
+				5C1BD04D1999C84700D8DABB /* Frameworks */,
+				5C1BD04E1999C84700D8DABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectEulerTests;
+			productName = ProjectEulerTests;
+			productReference = 5C1BD0501999C84700D8DABB /* ProjectEulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C389DA11999C513007C3314 /* ProjectEuler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C389DA91999C513007C3314 /* Build configuration list for PBXNativeTarget "ProjectEuler" */;
+			buildPhases = (
+				5C389D9E1999C513007C3314 /* Sources */,
+				5C389D9F1999C513007C3314 /* Frameworks */,
+				5C389DA01999C513007C3314 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectEuler;
+			productName = ProjectEuler;
+			productReference = 5C389DA21999C513007C3314 /* ProjectEuler */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C389D9A1999C513007C3314 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Chris Montrois";
+				TargetAttributes = {
+					5C1BD04F1999C84700D8DABB = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					5C389DA11999C513007C3314 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 5C389D9D1999C513007C3314 /* Build configuration list for PBXProject "ProjectEuler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C389D991999C513007C3314;
+			productRefGroup = 5C389DA31999C513007C3314 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C389DA11999C513007C3314 /* ProjectEuler */,
+				5C1BD04F1999C84700D8DABB /* ProjectEulerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C1BD04E1999C84700D8DABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C1BD04C1999C84700D8DABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C437B58199EB5B200BAE029 /* Problem5.swift in Sources */,
+				5C1BD05E1999CAC300D8DABB /* Problem2Tests.swift in Sources */,
+				5C1BD0651999CDA700D8DABB /* Problem3.swift in Sources */,
+				5C437B5A199EB61300BAE029 /* Problem5Tests.swift in Sources */,
+				5C1BD05C1999C8E400D8DABB /* Problem2.swift in Sources */,
+				5C1BD0671999CF3300D8DABB /* Problem3Tests.swift in Sources */,
+				5C1BD05B1999C8E200D8DABB /* Problem1.swift in Sources */,
+				5C8EF5EB199A623500176A52 /* Problem4.swift in Sources */,
+				5C152639199A628800B12BB9 /* Problem4Tests.swift in Sources */,
+				5C1BD05A1999C87500D8DABB /* Problem1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C389D9E1999C513007C3314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1BD04B1999C82D00D8DABB /* Problem2.swift in Sources */,
+				5C8EF5EA199A623500176A52 /* Problem4.swift in Sources */,
+				5C1BD0641999CDA100D8DABB /* Problem3.swift in Sources */,
+				5C437B57199EB5AC00BAE029 /* Problem5.swift in Sources */,
+				5C389DA61999C513007C3314 /* main.swift in Sources */,
+				5C712A1A1999C54000B95B80 /* Problem1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5C1BD0571999C84700D8DABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProjectEulerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C1BD0581999C84700D8DABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProjectEulerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C389DA71999C513007C3314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C389DA81999C513007C3314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5C389DAA1999C513007C3314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C389DAB1999C513007C3314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C1BD0561999C84700D8DABB /* Build configuration list for PBXNativeTarget "ProjectEulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1BD0571999C84700D8DABB /* Debug */,
+				5C1BD0581999C84700D8DABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C389D9D1999C513007C3314 /* Build configuration list for PBXProject "ProjectEuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C389DA71999C513007C3314 /* Debug */,
+				5C389DA81999C513007C3314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C389DA91999C513007C3314 /* Build configuration list for PBXNativeTarget "ProjectEuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C389DAA1999C513007C3314 /* Debug */,
+				5C389DAB1999C513007C3314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C389D9A1999C513007C3314 /* Project object */;
+}
