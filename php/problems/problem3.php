@@ -11,7 +11,7 @@
  *   6857
 */
 
-require_once('helpers/prime.php');
+require_once('helpers/primes.php');
 
 function problem3($num) {
   // We only need to start at the square root of the maximum
