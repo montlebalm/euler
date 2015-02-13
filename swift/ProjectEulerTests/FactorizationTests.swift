@@ -3,15 +3,11 @@ import ProjectEuler
 
 class LcmTests: XCTestCase {
 
-  func testLcmFor1And10() {
+  func testDifferentNumbers() {
     XCTAssertEqual(lcm(1, 10), 10)
   }
 
-  func testLcmFor10And20() {
-    XCTAssertEqual(lcm(10, 20), 20)
-  }
-
-  func testLcmFor10And10() {
+  func testSameNumber() {
     XCTAssertEqual(lcm(10, 10), 10)
   }
 
@@ -19,15 +15,11 @@ class LcmTests: XCTestCase {
 
 class IsPrimeTests: XCTestCase {
 
-  func test2IsPrime() {
+  func testPrimeNumber() {
     XCTAssertTrue(isPrime(2))
   }
 
-  func test17IsPrime() {
-    XCTAssertTrue(isPrime(17))
-  }
-
-  func test100IsNotPrime() {
+  func testNonPrimeNumber() {
     XCTAssertFalse(isPrime(100))
   }
 

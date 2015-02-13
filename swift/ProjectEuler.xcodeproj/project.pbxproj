@@ -12,8 +12,9 @@
 		5C10F4A31A8DD76B0060A7D8 /* Problem9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C10F4A21A8DD76B0060A7D8 /* Problem9.swift */; };
 		5C10F4A51A8DD7750060A7D8 /* Problem9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C10F4A41A8DD7750060A7D8 /* Problem9Tests.swift */; };
 		5C10F4A71A8DD9C10060A7D8 /* Problem9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C10F4A21A8DD76B0060A7D8 /* Problem9.swift */; };
-		5C10F4A91A8DDA000060A7D8 /* Powers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C10F4A81A8DDA000060A7D8 /* Powers.swift */; };
-		5C10F4AA1A8DDA700060A7D8 /* Powers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C10F4A81A8DDA000060A7D8 /* Powers.swift */; };
+		5C14C2FA1A8DDC390074FF09 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C14C2F91A8DDC390074FF09 /* Numbers.swift */; };
+		5C14C2FB1A8DDC390074FF09 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C14C2F91A8DDC390074FF09 /* Numbers.swift */; };
+		5C14C2FE1A8DDCD60074FF09 /* NumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C14C2FC1A8DDCD60074FF09 /* NumbersTests.swift */; };
 		5C152639199A628800B12BB9 /* Problem4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C152638199A628800B12BB9 /* Problem4Tests.swift */; };
 		5C1BD04B1999C82D00D8DABB /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1BD04A1999C82D00D8DABB /* Problem2.swift */; };
 		5C1BD05A1999C87500D8DABB /* Problem1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1BD0591999C87500D8DABB /* Problem1Tests.swift */; };
@@ -63,7 +64,8 @@
 		5C10DC411A8DAEFB00637FC2 /* Problem7Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem7Tests.swift; sourceTree = "<group>"; };
 		5C10F4A21A8DD76B0060A7D8 /* Problem9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem9.swift; sourceTree = "<group>"; };
 		5C10F4A41A8DD7750060A7D8 /* Problem9Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem9Tests.swift; sourceTree = "<group>"; };
-		5C10F4A81A8DDA000060A7D8 /* Powers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Powers.swift; sourceTree = "<group>"; };
+		5C14C2F91A8DDC390074FF09 /* Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		5C14C2FC1A8DDCD60074FF09 /* NumbersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbersTests.swift; sourceTree = "<group>"; };
 		5C152638199A628800B12BB9 /* Problem4Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem4Tests.swift; sourceTree = "<group>"; };
 		5C1BD04A1999C82D00D8DABB /* Problem2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem2.swift; sourceTree = "<group>"; };
 		5C1BD0501999C84700D8DABB /* ProjectEulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectEulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,7 +175,7 @@
 			children = (
 				5C88581C1A8D724C00069847 /* Palindromes.swift */,
 				5C8858211A8D735C00069847 /* Factorization.swift */,
-				5C10F4A81A8DDA000060A7D8 /* Powers.swift */,
+				5C14C2F91A8DDC390074FF09 /* Numbers.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -183,6 +185,7 @@
 			children = (
 				5C88581E1A8D727A00069847 /* PalindromesTests.swift */,
 				5C8858231A8D738100069847 /* FactorizationTests.swift */,
+				5C14C2FC1A8DDCD60074FF09 /* NumbersTests.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -289,13 +292,14 @@
 				5C7FC6331A8DC225006CB066 /* Problem8Tests.swift in Sources */,
 				5C7FC63B1A8DCE04006CB066 /* Problem5.swift in Sources */,
 				5C7FC63C1A8DCE04006CB066 /* Problem6.swift in Sources */,
-				5C10F4AA1A8DDA700060A7D8 /* Powers.swift in Sources */,
 				5C437B5A199EB61300BAE029 /* Problem5Tests.swift in Sources */,
 				5C7FC6351A8DCE04006CB066 /* Factorization.swift in Sources */,
+				5C14C2FE1A8DDCD60074FF09 /* NumbersTests.swift in Sources */,
 				5C1BD0671999CF3300D8DABB /* Problem3Tests.swift in Sources */,
 				5C8858241A8D738100069847 /* FactorizationTests.swift in Sources */,
 				5C152639199A628800B12BB9 /* Problem4Tests.swift in Sources */,
 				5C7FC6391A8DCE04006CB066 /* Problem3.swift in Sources */,
+				5C14C2FB1A8DDC390074FF09 /* Numbers.swift in Sources */,
 				5C1BD05A1999C87500D8DABB /* Problem1Tests.swift in Sources */,
 				5C7FC6371A8DCE04006CB066 /* Problem1.swift in Sources */,
 			);
@@ -307,10 +311,10 @@
 			files = (
 				5C7FC62F1A8DC218006CB066 /* Problem8.swift in Sources */,
 				5C1BD04B1999C82D00D8DABB /* Problem2.swift in Sources */,
+				5C14C2FA1A8DDC390074FF09 /* Numbers.swift in Sources */,
 				5C88581D1A8D724C00069847 /* Palindromes.swift in Sources */,
 				5C10F4A31A8DD76B0060A7D8 /* Problem9.swift in Sources */,
 				5C8EF5EA199A623500176A52 /* Problem4.swift in Sources */,
-				5C10F4A91A8DDA000060A7D8 /* Powers.swift in Sources */,
 				5C8858111A8D6A2E00069847 /* Problem6.swift in Sources */,
 				5C1BD0641999CDA100D8DABB /* Problem3.swift in Sources */,
 				5C8858221A8D735C00069847 /* Factorization.swift in Sources */,

@@ -28,12 +28,8 @@
 
 import Foundation
 
-func numToDigits(num: String) -> [Int] {
-  return Array(num).map({ String($0).toInt()! })
-}
-
 func problem8(num: String) -> Int {
-  let haystack = numToDigits(num)
+  let haystack = stringToDigits(num)
   var largestProduct = 0
 
   for var i = 0; i + 5 < haystack.count; i++ {
