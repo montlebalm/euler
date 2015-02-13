@@ -1,13 +1,11 @@
 import XCTest
+import ProjectEuler
 
 class Problem5Tests: XCTestCase {
 
-  func test1to10() {
-    XCTAssertEqual(problem5(Array(1...10)), 2520)
+  func testAnswerIsCorrect() {
+    let guess = problem5(Array(1...20))
+    XCTAssertEqual(guess, 232792560)
   }
 
-  func test1to20() {
-    XCTAssertEqual(problem5(Array(1...20)), 232792560)
-  }
-  
 }

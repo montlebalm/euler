@@ -1,4 +1,5 @@
 import XCTest
+import ProjectEuler
 
 class Problem7Tests: XCTestCase {
 

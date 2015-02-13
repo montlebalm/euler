@@ -10,31 +10,31 @@
 	<string>ProjectEuler</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>C02F5318E06D7C3822E5C6A37051C5D213096035</key>
-		<string>github.com:montlebalm/ProjectEuler-Swift.git</string>
+		<key>4D511155FA95A7C2AF201531E244E6C20ACF32F2</key>
+		<string>github.com:montlebalm/euler.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ProjectEuler.xcodeproj</string>
+	<string>swift/ProjectEuler.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>C02F5318E06D7C3822E5C6A37051C5D213096035</key>
-		<string>../..</string>
+		<key>4D511155FA95A7C2AF201531E244E6C20ACF32F2</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:montlebalm/ProjectEuler-Swift.git</string>
+	<string>github.com:montlebalm/euler.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C02F5318E06D7C3822E5C6A37051C5D213096035</string>
+	<string>4D511155FA95A7C2AF201531E244E6C20ACF32F2</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C02F5318E06D7C3822E5C6A37051C5D213096035</string>
+			<string>4D511155FA95A7C2AF201531E244E6C20ACF32F2</string>
 			<key>IDESourceControlWCCName</key>
-			<string>ProjectEuler-Swift</string>
+			<string>euler</string>
 		</dict>
 	</array>
 </dict>

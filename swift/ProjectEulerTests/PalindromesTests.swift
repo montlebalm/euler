@@ -1,9 +1,18 @@
-//
-//  PalindromesTests.swift
-//  ProjectEuler
-//
-//  Created by Chris Montrois on 2/12/15.
-//  Copyright (c) 2015 Chris Montrois. All rights reserved.
-//
+import XCTest
+import ProjectEuler
 
-import Foundation
+class IsPalindromeTests: XCTestCase {
+
+  func test1IsPalindrome() {
+    XCTAssertTrue(isPalindrome(1))
+  }
+
+  func test2000002IsPalindrome() {
+    XCTAssertTrue(isPalindrome(2000002))
+  }
+
+  func test1234IsPalindrome() {
+    XCTAssertFalse(isPalindrome(1234))
+  }
+
+}

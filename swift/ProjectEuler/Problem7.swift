@@ -10,7 +10,7 @@
 import Foundation
 
 func problem7(targetCount: Int) -> Int {
-  var count = 0
+  var count = 1
   var num = 1
 
   while count < targetCount {
