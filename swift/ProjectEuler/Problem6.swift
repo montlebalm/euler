@@ -14,10 +14,6 @@
 
 import Foundation
 
-func square(num: Int) -> Int {
-  return Int(pow(Double(num), 2))
-}
-
 func problem6(upperLimit: Int) -> Int {
   let range = Array(1...upperLimit)
   let sumOfSquares = range.map(square).reduce(0, combine: +)

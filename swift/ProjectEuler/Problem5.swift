@@ -13,7 +13,7 @@ func problem5(divisors: [Int]) -> Int {
   var smallestLcm = 1
 
   for (i, num) in enumerate(divisors) {
-    if i + 1 < count(divisors) {
+    if i + 1 < divisors.count {
       let pairLcm = lcm(num, divisors[i + 1])
       smallestLcm = lcm(pairLcm, smallestLcm)
     }
